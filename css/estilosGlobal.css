@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#contenedor {
+    width: 900px;
+    height: 1000px;
+    background-color: #f1ecea;
+    margin: 1em auto;
+}
+
+#Encabezado {
+    height: 15%;
+    background-color: #3a251c;
+    text-align: center;
+}
+
+.encabezado-text {
+    padding: 1.5em 0;
+}
+
+#Menu {
+    height: 5%;
+    background-color: #b46424;
+}
+
+.barraNavegacion {
+    text-decoration: none;
+}
+
+#contenido {
+    height: 70%;
+    display: flex;
+}
+
+#reseña {
+    width: 64%;
+    height: 100%;
+    background-color: #362f2f;
+}
+
+.texto h2{
+    text-align: center;
+    margin: 1em 0;
+}
+
+.texto p {
+    text-align: justify;
+    margin: 0 1em;
+}
+
+#imagenes {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+#Aseccion {
+    width: 35%;
+    height: 100%;
+    background-color: #b58c7c;
+    margin-left: 1em;
+    flex-direction: column;
+}
+
+#Aseccion h2 {
+    text-align: center;
+}
+
+#Aseccion li{
+    display: block;
+    margin: .5em 6em;
+    text-align: justify;
+    
+}
+
+#Aseccion ul {
+    
+}
+
+#Aseccion img {
+    margin: 1em 7em;
+}
+
+#pie {
+    height: 10%;
+    background-color: #3a251c;
+    text-align: center;
+}
+
+.pieNavegacion {
+    padding: 2.5em 0;
+}
+
+ul {
+    text-align: center;
+    padding-top: 1em;
+}
+
+li {
+    display: inline;
+    margin: 0 2em;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    margin: 0 5px;
+}
+
+
