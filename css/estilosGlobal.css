@@ -26,6 +26,10 @@
     background-color: #b46424;
 }
 
+#Menu li {
+    display: inline;
+}
+
 .barraNavegacion {
     text-decoration: none;
 }
@@ -62,7 +66,6 @@
     height: 100%;
     background-color: #b58c7c;
     margin-left: 1em;
-    flex-direction: column;
 }
 
 #Aseccion h2 {
@@ -70,13 +73,8 @@
 }
 
 #Aseccion li{
-    display: block;
     margin: .5em 6em;
     text-align: justify;
-    
-}
-
-#Aseccion ul {
     
 }
 
@@ -96,11 +94,10 @@
 
 ul {
     text-align: center;
-    padding-top: 1em;
+    padding: .9em 0;
 }
 
 li {
-    display: inline;
     margin: 0 2em;
 }
 
